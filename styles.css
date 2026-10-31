@@ -45,7 +45,7 @@ body.darkmode ul li a {
 .topright {
   position: absolute;
   top: 3rem;
-  right: clamp(19rem, 12vw, 10rem);
+  right: clamp(19rem, 12vw, 20rem);
   margin: 0;
 }
 

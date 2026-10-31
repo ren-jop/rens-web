@@ -10,16 +10,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="prefetch" href="/about/">
+  <link rel="prefetch" href="/contact/">
 
-<style>
-    .button {
-    color: black;
-    padding: 15px 30px;
-    }
-</style>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet">
 </head>
 <body>
+<div class="topright">
+<button class="darkbutton" onclick="darkmode()" aria-label="dark mode">
+      <span class="material-symbols-outlined">toggle_on</span>
+      <span class="buttonlabel">dark mode</span></button>
+
+</div>
 <div class="navframe">
   <header>
   <h1>
@@ -34,7 +38,8 @@
 </nav>
 </div>
 <div class="frame">
-<img class="home-photo" src="images/traininjapan.jpg" alt="Japanvibes">
+<img class="home-photo" fetchpriority="high" src="images/traininjapan.jpg" alt="Japanvibes">
 </div>
+<script src="./script.js"></script>
 </body>
 </html>

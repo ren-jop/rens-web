@@ -101,7 +101,7 @@ ul li a:hover {
   line-height: 0;
 }
 
-.abouttext, .space {
+.abouttext, .bruh, .space {
   width: min(90ch, calc(100% - 2rem));
   margin: 1rem auto;
   margin-top: 4em;
